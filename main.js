@@ -12,6 +12,7 @@ const search= async() => {
         welcomeDiv.style.display = "block"      //content is on display
         invalidText.style.visibility = 'hidden' //invalid msg is hidden
         errordiv.style.display = 'none'         //error code
+        suggest.style.display = 'block'         //ai suggestion
 
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=181db3d6821703785b67e3da3cf06990`)
 

@@ -120,9 +120,6 @@ body{
 }
 
 /* AI Suggests */
-#suggest{
-   display: block;
-}
 .suggestion h5{
    /* font-family: "Rancho", cursive; */
    font-family: "IM Fell English", serif;
