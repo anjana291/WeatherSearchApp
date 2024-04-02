@@ -163,6 +163,7 @@ const search= async() => {
                 // alert('not found')
                 welcomeDiv.style.display = 'none'
                 errordiv.style.display = 'block'
+                suggest.style.display = 'none'
             }
         })
     }
