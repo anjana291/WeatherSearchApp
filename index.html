@@ -41,7 +41,7 @@
     <div class="container">
         <div class="row row-class">
             <div class="col-md-1"></div>
-            <div class="col-md-6 largerdiv mt-5">
+            <div class="col-md-6 col-sm-12 largerdiv mt-4">
                 <div class="welcomeDivMain">
                     <div class="welcome" id="welcomedivshow">
                         <img src="./images/weather.jpg" alt="">
@@ -76,12 +76,14 @@
                     </div>                                      
                 </div>
             </div>
-            <div class="col-md-4 mt-5 ms-1 form-div">
-                <form action="" class="form-child mt-3">
-                    <i class="fa-solid fa-temperature-quarter fa-xl"></i>
-                    <input type="text" placeholder="Search City Here" id="city">
-                    <button type="button" class="btn text-light" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+            <div class="col-md-4 col-sm-12 col-12 mt-4 ms-1 form-div">
+                <div class="form-child mt-3">
+                    <form action="" >
+                        <i class="fa-solid fa-temperature-quarter fa-xl"></i>
+                        <input type="text" placeholder="Search City Here" id="city" class="w-75">
+                        <button type="button" class="btn text-light" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
                 <p id="invalidText" class="mt-2">!! Enter valid City Name !!</p>
                 <div class="suggestion" id="suggest">
                     

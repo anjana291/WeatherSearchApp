@@ -80,18 +80,18 @@ const search= async() => {
 
                 welcomeDiv.innerHTML = `
                         <div class="NameCountry">
-                            <h4 id="citys">${capCity}, ${country}</h4>
-                            <h6 id="time">${day} ${month} ${date}, ${formattedHours}:${formattedMinutes} ${period}</h6>
+                            <h4 id="citys"><i class="fa-solid fa-location-dot fa-xs"></i> ${capCity}, ${country}</h4>
+                            <h6 id="time">${day} ${month} ${date} , ${formattedHours}:${formattedMinutes} ${period}</h6>
                         </div>
                         <div class="weatherImg">
                             <img src="./images/day.png" alt="" class="imageS" id="iconWeather">
                             <h2 id="t_emperature">${tempC}°C</h2>
-                            <h6 id="feels__like"> feels like ${feelsC} °C</h6>
+                            <h5 id="feels__like"> feels like ${feelsC} °C</h5>
                             <h4 id="c_louds">${cloud_desc}</h4>
                         </div>
                         <div class="tempLower">
                             <p id="h_umidity"><i class="fa-solid fa-droplet"></i> ${humidity} %</p>
-                            <p id="w_ind"><i class="fa-solid fa-wind"></i>  ${wind} m/s</p>
+                            <p id="w_ind"><i class="fa-solid fa-wind"></i>  ${wind} Km/h</p>
                             <p id="p_ressure"><i class="fa-solid fa-gauge-simple"></i> ${pressure} hPa</p>
                         </div>`
 
